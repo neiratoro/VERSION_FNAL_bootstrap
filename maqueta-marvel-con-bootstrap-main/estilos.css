@@ -1,0 +1,64 @@
+.logo img{
+    width: 120px;
+}
+.enlaces-menu li a:hover{
+    color: red !important;
+}
+.sesion-1 div img{
+    height: 600px;
+}
+
+.sesion-2{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.sesion-2 .container,
+.seion-2 .container .row,
+.sesion-2 .container .row  .col-md-6{
+        height: 100%;    
+}
+.sesion-2 .video-iframe{
+        width: 100%;
+        height: 100%;
+}
+.sesion-2 .texto-intro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intermedio-1{
+    width: 100%;
+    height: 170px;
+    background-image: url(/imagenes/fondo_marvel.avif);
+    background-attachment: fixed;
+    background-position: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sesion-3{
+    width: 100%;
+    height: auto;
+}
+
+.sesion-3 .container,
+.sesion-3 .container .row{
+    height: 100%;
+   
+}
+
+.sesion-3 .container .row .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    object-fit: cover;
+}
